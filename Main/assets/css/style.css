@@ -1,0 +1,127 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color: #F7F7F7; /* Light gray background */
+  color: #333333; /* Dark gray for text */
+}
+
+h1,
+h2 {
+  margin: 20px;
+  color: #BB0000; /* Scarlet */
+}
+
+main {
+  padding: 60px 0;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #BB0000; /* Scarlet */
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #666666; /* Gray */
+  color: #FFFFFF; /* White text */
+}
+
+header {
+  position: fixed;
+  border-bottom: 5px solid #BB0000; /* Scarlet */
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-top: 5px solid #333333; /* Darker gray */
+  color: #FFFFFF; /* White text */
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #BB0000; /* Scarlet border for images */
+  border-radius: 10px;
+  background-color: #F7F7F7; /* Gray background for images */
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #BB0000; /* Scarlet */
+  background-color: #E8E8E8; /* Light gray */
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #BB0000; /* Scarlet */
+  border-radius: 20px;
+  background-color: #FFFFFF; /* White background for the form */
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #666666; /* Gray border */
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #BB0000; /* Scarlet */
+  color: #FFFFFF; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #990000; /* Darker scarlet for hover effect */
+}
+
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
